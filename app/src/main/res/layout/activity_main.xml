@@ -1,0 +1,92 @@
+<RelativeLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/toolbar"/>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_marginTop="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerView788">
+        </android.support.v7.widget.RecyclerView>
+
+        <RelativeLayout
+            android:layout_marginTop="55dp"
+            android:id="@+id/main_relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_share_white_24dp"
+                app:fabSize="normal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="55dp"
+                android:layout_marginRight="25dp"
+                app:backgroundTint="#e91e63"
+                app:rippleColor="@color/white"
+                android:clickable="true"
+                app:elevation="6dp"
+                app:borderWidth="0dp"
+                app:pressedTranslationZ="12dp"/>
+            <!--<android.support.design.widget.FloatingActionButton-->
+                <!--android:id="@+id/fab_favorite"-->
+                <!--android:visibility="gone"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/ic_favorite_outline_white_24dp"-->
+                <!--app:fabSize="normal"-->
+                <!--android:layout_above="@+id/fab"-->
+                <!--android:layout_marginBottom="15dp"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginRight="25dp"-->
+                <!--app:backgroundTint="@color/colorPrimary"-->
+                <!--app:rippleColor="@color/white"-->
+                <!--app:elevation="6dp"-->
+                <!--app:borderWidth="0dp"-->
+                <!--app:pressedTranslationZ="12dp"/>-->
+            <!--<android.support.design.widget.FloatingActionButton-->
+                <!--android:id="@+id/fab_share"-->
+                <!--android:visibility="gone"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/ic_share_white_24dp"-->
+                <!--app:fabSize="normal"-->
+                <!--android:layout_above="@+id/fab_favorite"-->
+                <!--android:layout_marginBottom="25dp"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginRight="25dp"-->
+                <!--app:backgroundTint="@color/colorPrimary"-->
+                <!--app:rippleColor="@color/white"-->
+                <!--app:elevation="6dp"-->
+                <!--app:borderWidth="0dp"-->
+                <!--app:pressedTranslationZ="12dp"/>-->
+        </RelativeLayout>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">简·说</string>
+    <string name="sun">[Sun]\n\n有时候我会觉得\n如果没找到命中注定的那个人\n不管有多成功都没意义\n\n----《在云端》</string>
+    <string name="sat">[Sat]\n\n朋友总是为你挡风遮雪\n如果你在很远的地方承受着风霜\n而我无能为力\n我也会祈祷\n让那些风雪\n降临在我的身上……\n\n------《彼岸花》</string>
+    <string name="tue">[Tue]\n\n人之所以不幸福\n也可能是被自己耽误的.\n\n----《分手快乐》</string>
+    <string name="wed">[Wed]\n\n诺言和深情\n没有出路的潮水\n一次次淹没了我\n\n----《告别薇安》</string>
+    <string name="thu">[Thu]\n\n语言无法穿越时间\n只有痛苦才能够穿越一切永恒\n\n----《蔷薇岛屿》</string>
+    <string name="fri">[Fri]\n\n美若没有几分遗憾\n如何能有那千般的滋味?\n\n----刘墉《昙花》</string>
+    <string name="mon">[Mon]\n\n生活很简单\n作出选择\n不回头\n\n----《速度与激情3东京漂移》</string>
+    <string name="toast">再按一次退出</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9187206896807164/8389221739</string>
+</resources>
